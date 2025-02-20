@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://as1.ftcdn.net/v2/jpg/06/81/61/22/1000_F_681612285_BPQpezLXgNnC3FKvTjaLw4aXHNxTdJAP.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container {
+    display: flex;
+    gap: 80px;
+   
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+   
+    height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 230px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-radius: 40px 10px 40px 10px;
+    cursor: pointer;
+}
+
+.card1  {
+    width: 280px;
+    height: 400px;
+    background: #F87060;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border-radius: 40px 10px 40px 10px;
+    border-right: none;
+}
+
+.card2 {
+    width: 280px;
+    height: 400px;
+    background: #2BC0E4;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-right: transparent;
+    border-radius: 40px 10px 40px 10px;
+    border-right: none;
+}
+
+.card3 {
+    width: 280px;
+    height: 400px;
+    background: #EAECC6;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(16.5px);
+    -webkit-backdrop-filter: blur(16.5px);
+    border-right: none;
+    border-radius: 30px 10px 30px 10px;
+}
+.card:hover {
+    margin-left: 80px;
+    transform: rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.card img {
+    width: 55%;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.card p {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
